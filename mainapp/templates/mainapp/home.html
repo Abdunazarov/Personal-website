@@ -1,0 +1,475 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Abdunazarov Dior</title>
+	
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="{% static 'mainapp/assets/favicon.ico' %}"/>
+    <!-- Font Awesome -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- Bootstrap -->
+    <link href="{% static 'mainapp/assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!-- Slick slider -->
+    <link href="{% static 'mainapp/assets/css/slick.css' %}" rel="stylesheet">
+    <!-- Gallery Lightbox -->
+    <link href="{% static 'mainapp/assets/css/magnific-popup.css' %}" rel="stylesheet">
+    <!-- Theme color -->
+    <link id="switcher" href="{% static 'mainapp/assets/css/theme-color/default-theme.css' %}" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'mainapp/main.css' %}">
+
+    <!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <!-- Poppins for Title -->
+  	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Dancing+Script:wght@600&family=Pacifico&display=swap" rel="stylesheet"> 
+  
+
+
+</head>
+  <body>
+  	
+  	<!-- Start Header -->
+	<header id="mu-header" class="" role="banner">
+		<div class="container">
+			<nav class="navbar navbar-default mu-navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+
+		      <!-- Text Logo -->
+		      <a class="navbar-brand" href="#" style="font-family: 'Pacifico', cursive; color:chartreuse; font-size: 3em; margin-top: -0.2em">Dior</a>
+          <!-- <a style="color: white; font-size: 1.1em; display: block; margin-top: 0" href="#">Abdunazarov</a> -->
+
+		      <!-- Image Logo -->
+		      <!-- <a class="navbar-brand" href="#"><img ;src="assets/images/logo.png"></a> -->
+
+
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav mu-menu navbar-right">
+			        <li><a href="#">HOME</a></li>
+			        <li><a href="#mu-about">ABOUT ME</a></li>
+			        <li><a href="#mu-service">WHAT DO I DO?</a></li>
+		            <li><a href="#mu-portfolio">MY PROJECTS</a></li>
+		            <!-- <li><a href="#mu-testimonials">TESTIMONIALS</a></li> -->
+		            <li><a href="#mu-contact">CONTACT ME</a></li>
+		      	</ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start Featured Slider -->
+
+	<section id="mu-featured-slider">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="mu-featured-area">
+						<h1>Abdunazarov Dior</h1>
+
+						<!-- Start text slide -->
+						<div class="mu-featured-slider-wrapper">
+							<div class="mu-featured-slider" id="typed-strings">
+								<p><span style="color:chartreuse;">Web Developer</span></p>
+							</div>
+							<span id="typed"></span>
+						</div>
+						<!-- Start text slide -->
+						
+						<div class="mu-featured-content">
+							<a href="#mu-about" class="mu-primary-btn view-my-work-btn" style="letter-spacing: 0.4px;">WHO AM I?</a>
+						</div>
+
+					</div>
+				</div>			
+			</div>
+		</div>
+	</section>
+	
+	<!-- Start Featured Slider -->
+	
+	<!-- Start main content -->
+		
+	<main role="main">
+
+		<!-- Start About -->
+		<section id="mu-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-about-area">
+
+							<div class="mu-about-header">
+								<h2 class="mu-heading-title">ABOUT ME</h2>
+								<span class="mu-header-dot"></span>
+								<p>My name is Abdunazarov Dior and I am a professional <strong>Web Developer.</strong><br>
+									I have developed many high-class web applications and built APIs for both national and international clients</p>
+							</div>
+
+							<!-- Start About Us Content -->
+							<div class="mu-about-content">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="mu-about-content-left">
+											<img class="mu-profile-img" src="{% static 'mainapp/assets/images/me.jpg' %}" alt="Profile Image">
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="mu-about-content-right">
+			
+											<!-- Start skills progress bar -->
+
+						                  	<div class="mu-skill-progress-bar">
+						                  		<h3>My Skills</h3>
+							                    <span>Python</span>
+							                    <div class="mu-pro-bar mu-html5-bar">	
+							                      
+							                    </div>
+							                    <span>Django</span>
+							                    <div class="mu-pro-bar mu-css-bar">
+							                     
+							                    </div>
+							                    <span>Django Rest Framework</span>
+							                    <div class="mu-pro-bar mu-photoshop-bar">
+							                    </div>
+						                  	</div>
+
+						                  	<!-- Start Social Media -->
+						                  	<div class="mu-social-media">
+						                  		<h3>My Social Media</h3>
+						                  		<a href="https://www.facebook.com/abdunazarov.diyor.5"><i class="fa fa-facebook"></i></a>
+						            
+						                  		<a href="https://www.linkedin.com/in/abdunazarov-dior-a06aa7209/">
+						                  			<i class="fa fa-linkedin">
+						                  			</i>
+						                  		</a>
+
+						                  		<a href="https://t.me/D_Abdunazarov"><i class="fa fa-telegram"></i></a>
+						                  	</div>
+
+						                  	<!-- Download Ressume Button -->
+						                  	<a href="#mu-contact" class="mu-resume-btn">Hire Me!</a>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End About Us Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About -->
+
+		<!-- Start Service -->
+		<section id="mu-service">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-service-area">
+
+							<div class="mu-service-header">
+								<h2 class="mu-heading-title">MY SERVICES</h2>
+								<span class="mu-header-dot"></span>
+							</div>
+
+							<!-- Start Service Content -->
+							<div class="mu-service-content">
+								<div class="row">
+
+									<!-- Service Single Content -->
+									<div class="col-md-4 col-sm-6">
+										<div class="mu-service-content-single">
+											<span class="mu-service-icon-box">
+												<i class="fa fa-leaf"></i>
+											</span>
+											<h4>HTML & SCSS & Bootstrap</h4>
+											<p>SCSS & Bootstrap are one of the most efficent and fastest frameworks for front-end development. </p>
+										</div>
+									</div>
+									<!-- / Service Single Content -->
+
+									<!-- Service Single Content -->
+									<div class="col-md-4 col-sm-6">
+										<div class="mu-service-content-single">
+											<span class="mu-service-icon-box">
+												<i class="fa fa-desktop"></i>
+											</span>
+											<h4>Building APIs with DRF</h4>
+											<p>API is a set of rules and definitions that is used to develop software and help the software interact with users. You can sell your APIs without exposing the actual code. </p>
+										</div>
+									</div>
+									<!-- / Service Single Content -->
+
+
+									<!-- / Service Single Content -->
+
+									<!-- Service Single Content -->
+									<div class="col-md-4 col-sm-6">
+										<div class="mu-service-content-single">
+											<span class="mu-service-icon-box">
+												<i class="fa fa-camera"></i>
+											</span>
+											<h4>Web Applications with Django</h4>
+											<p>Django is a high-level Python web framework that enables rapid development of secure and maintainable websites. It takes care of much of the hassle of web development.</p>
+										</div>
+									</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Service -->
+
+		<!-- Start Portfolio -->
+		<section id="mu-portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-portfolio-area">
+
+							<div class="mu-portfolio-header">
+								<h2 class="mu-heading-title">MY PORTFOLIO</h2>
+								<span class="mu-header-dot"></span>
+							</div>
+
+							<!-- Start Portfolio Filter -->
+							<div class="mu-portfolio-filter-area">
+								<ul class="mu-simplefilter">
+					                <li class="active" data-filter="all">All</li>
+					                <li data-filter="1">Front-end</li>
+					                <li data-filter="2">Back-end</li>
+					                <!-- <li data-filter="3">Graphics Design</li>
+					                <li data-filter="4">Mobile App</li>
+					                <li data-filter="5">Branding</li>
+					                <li data-filter="6">Marketing</li> -->
+					            </ul>
+							</div>
+
+							<!-- Start Portfolio Content -->
+							<div class="mu-portfolio-content">
+								<div class="filtr-container">
+
+					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
+					                	<div class="mu-item-thumbonail">
+					                		<img class="img-responsive" src="{% static 'mainapp/assets/images/geology.jpg'%}" alt="image">
+					                	</div>
+					                	<div class="mu-filter-item-content">
+					                    	<h4 class="mu-filter-item-title">Front-end</h4>
+					                    	<a class="mu-filter-link" href="#"><i class="fa fa-link"></i></a>
+					                    	<a class="mu-filter-imglink" href="assets/images/portfolio/img-1.jpeg" title="Web Development"><i class="fa fa-search"></i></a>
+					                    </div>
+					                </div>
+
+					                <div class="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="2">
+					                	<div class="mu-item-thumbonail">
+					                		<img class="img-responsive" src="{% static 'mainapp/assets/images/truck.png' %}" alt="image">
+					                	</div>
+					                	<div class="mu-filter-item-content">
+					                    	<h4 class="mu-filter-item-title">Back-end</h4>
+					                    	<a class="mu-filter-link" href="#"><i class="fa fa-link"></i></a>
+					                    	<a class="mu-filter-imglink" href="assets/images/portfolio/img-2.jpeg" title="UI/UX DESIGN"><i class="fa fa-search"></i></a>
+					                    </div>
+					                </div>
+
+					                
+							<!-- End Portfolio Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Portfolio -->
+
+		<!-- Start Testimonials
+		<section id="mu-testimonials">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-testimonials-area">
+							<div class="mu-testimonial-header">
+								<h2 class="mu-heading-title">Client Testimonials</h2>
+								<span class="mu-header-dot"></span>
+							</div>
+
+							<div class="mu-testimonials-block">
+								<ul class="mu-testimonial-slide">
+
+									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+										<h5 class="mu-ct-name"> - Jhon Doe</h5>
+										<span class="mu-ct-title">CEO, Apple Inc.</span>
+									</li>
+
+									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+										<h5 class="mu-ct-name"> - Alice Boga</h5>
+										<span class="mu-ct-title">Director, Google Inc.</span>
+									</li>
+
+									<li>
+										<i class="fa fa-quote-right mu-quote-icon"></i>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+										<h5 class="mu-ct-name"> - Jhon Smith</h5>
+										<span class="mu-ct-title">Web Developer</span>
+									</li>
+
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonials -->
+ 
+
+		<!-- Start Contact -->
+		<section id="mu-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-contact-area">
+
+							<div class="mu-contact-header">
+								<h2 class="mu-heading-title">CONTACT ME</h2>
+								<span class="mu-header-dot"></span>
+							</div>
+
+							<!-- Start Contact Content -->
+							<div class="mu-contact-content">
+								<div class="row">
+
+									<div class="col-md-12">
+										<div class="mu-contact-top">
+
+											<div class="row">
+												<div class="col-sm-4">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-map-marker"></i></div>
+														<p>Amir Temur Rd Vatan, Tashkent, Uzbekistan</p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-phone"></i></div>
+														<p>+998 97 260 65 00</p>
+													</div>
+												</div>
+												<div class="col-sm-4">
+													<div class="mu-contact-top-single">
+														<div class="mu-icon"><i class="fa fa-envelope"></i></div>
+														<p>abdunazarovdior@gmail.com</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>	
+
+									<div class="col-md-12">
+										<form method="post">{% csrf_token %}
+
+											<div class="mu-contact-bottom">
+												<div id="form-messages"></div>
+													<form method="post" class="mu-contact-form">{% csrf_token %}
+														<div class="form-group">                
+															<input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
+														</div>
+														<div class="form-group">                
+															<input type="email" class="form-control" placeholder="Enter Email" id="email" name="email" required>
+														</div>              
+														<div class="form-group">
+															<textarea class="form-control" placeholder="Message" id="message" name="message" required></textarea>
+														</div>
+														<button type="submit" class="mu-send-msg-btn"><span>SEND</span></button>
+													</form>
+												</div>
+
+										</form>
+
+									</div>	
+
+								</div>
+							</div>
+							<!-- End Contact Content -->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact -->
+
+	</main>
+	
+	<!-- End main content -->	
+			
+			
+	<!-- Start footer -->
+	<footer id="mu-footer" role="contentinfo">
+			<div class="container">
+				<div class="mu-footer-area">
+					<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://t.me/d__abdunazarov">Dior Abdunazarov</a>. All right reserved.</p>
+				</div>
+			</div>
+
+	</footer>
+	<!-- End footer -->
+
+
+	
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="{% static 'mainapp/assets/js/bootstrap.min.js' %}"></script>
+	<!-- Slick slider -->
+    <script type="text/javascript" src="{% static 'mainapp/assets/js/slick.min.js' %}"></script>
+    <!-- Filterable Gallery js -->
+    <script type="text/javascript" src="{% static 'mainapp/assets/js/jquery.filterizr.min.js' %}"></script>
+    <!-- Gallery Lightbox -->
+    <script type="text/javascript" src="{% static 'mainapp/assets/js/jquery.magnific-popup.min.js' %}"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="{% static 'mainapp/assets/js/app.js' %}"></script>
+	<!-- Featured Slider -->
+    <script type="text/javascript" src="{% static 'mainapp/assets/js/typed.min.js' %}"></script>
+    <!-- On scroll JS  -->
+    <script src="{% static 'mainapp/assets/js/jquery.appear.js' %}"></script>
+	<!-- Progress Bar -->
+    <script type="text/javascript" src="{% static 'mainapp/assets/js/jquery.lineProgressbar.js' %}"></script>
+    
+	
+    <!-- Custom js -->
+	<script type="text/javascript" src="{% static 'mainapp/assets/js/custom.js' %}"></script>
+
+	
+	
+    
+  </body>
+</html>
